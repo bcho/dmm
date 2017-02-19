@@ -2,6 +2,7 @@ package proxy_server
 
 import (
 	"fmt"
+	"log"
 	"time"
 
 	"github.com/bcho/dmm"
@@ -46,8 +47,11 @@ func (s service) Query(keyword string) (rv []dmm.Product, err error) {
 
 	if rv != nil {
 		// hit from cache
+		log.Printf("hit from cache")
 		return
 	}
+
+	log.Printf("miss from cache")
 
 	rv, err = s.client.Query(&search.QueryOpts{keyword})
 	if rv != nil {
