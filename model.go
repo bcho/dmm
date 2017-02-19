@@ -7,11 +7,11 @@ import (
 
 // Product represents a product entity.
 type Product struct {
-	ContentID string
-	Title     string
-	DetailURL string
-	CoverURL  string
-	Artworks  []string
+	ContentID string   `json:"content_id"`
+	Title     string   `json:"title"`
+	DetailURL string   `json:"detail_url"`
+	CoverURL  string   `json:"cover_url"`
+	Artworks  []string `json:"artworks"`
 }
 
 func (p Product) String() string {
