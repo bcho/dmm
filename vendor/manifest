@@ -1195,6 +1195,14 @@
 			"notests": true
 		},
 		{
+			"importpath": "github.com/patrickmn/go-cache",
+			"repository": "https://github.com/patrickmn/go-cache",
+			"vcs": "git",
+			"revision": "e7a9def80f35fe1b170b7b8b68871d59dea117e1",
+			"branch": "master",
+			"notests": true
+		},
+		{
 			"importpath": "github.com/pborman/uuid",
 			"repository": "https://github.com/pborman/uuid",
 			"vcs": "git",
