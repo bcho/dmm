@@ -1,0 +1,11 @@
+language: go
+
+go:
+    - tip
+    - 1.8
+    - 1.7
+    - 1.6
+
+notifications:
+  webhooks:
+    secure: "YjxnOWmVSOMPS9v9sPDoaQSgJGuPlCcKUYCGW6PA9WLb6WBIXtwU3xXlU1NUwWyHpAjVenwvYJPBbvtwpPuE1mKThkzY1Ve9BD7emb0wnEFVX7bna19FqjC1q4h5kXkFJBKZ+WmkC5Ad01QviShwlFXps1IhI1UfN7k9m20wrt9SMoNIznCikXL/5/1WmG0HYG0pyUiIzBXIuRMcbdaq3PWgtjSlToYZ8Db2FNpKJeMEe9MKMkavvOLVuN1xrzybslaOir7qZGEMRfLg+DvEfFe7WpIBziDDJT16Mz8DmZf+bVQ3CRuYLFyO+U4LV5tBcEBndddgQ+DlNRA5tI0iUYHYrFNxqYjKcCDRxe6wzZCrduD3zQFcaZ/2sGPGiYlRxLkaiJZaursPnfiCpZk5zU47Ex+ZZijEAyw+JAMyFfhwBUcWmwhzYhr6sgsNNUt/NlEdOiLQDFektrICd6DcUgbsjqo9/rC24+AGah2WG45PS4CK8A0hk11A/vAqpaN6pvUyBXQQokd0FoH7+/hT93sPvEu4fkZfttS8npV3zTW1jgMV6ov5hB1jkl1FRwRp4i2pv1tnynR3xS4YDHgEGx0zmDqWi2B1dY0iBkttybjANNaiZWxCua3brVaAtU5xN9GwlyNInsbfnVZBZffqWat6wRlrNem+NII7+CsYNOc="
