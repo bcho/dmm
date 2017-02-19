@@ -23,7 +23,7 @@ var contentIDRegex = regexp.MustCompile("cid=([^/]+)")
 // ParseContentID extract (possible) content id from string.
 func ParseContentID(s string) string {
 	p := contentIDRegex.FindStringSubmatch(s)
-	if len(p) >= 0 {
+	if len(p) >= 1 {
 		return p[1]
 	}
 	return ""
